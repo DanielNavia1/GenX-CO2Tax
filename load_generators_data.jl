@@ -211,7 +211,7 @@ function load_generators_data(setup::Dict, path::AbstractString, sep::AbstractSt
 		# No scaling is necessary as CO2 per MWh or per start is already re-scaled at this point in the function.
 		# The
 				
-		inputs_gen["dfGen"][!,:CO2_Tax_per_MWh][g]=inputs_gen["CO2_Tax_per_Ton"]*inputs_gen["dfGen"][!,:CO2_per_MWh][g]s
+		inputs_gen["dfGen"][!,:CO2_Tax_per_MWh][g]=inputs_gen["CO2_Tax_per_Ton"]*inputs_gen["dfGen"][!,:CO2_per_MWh][g]
 	
 
 		
