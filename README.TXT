@@ -1,4 +1,8 @@
-This repository contains a version of the code required to introduce a CO2 tax in the standard functions of GenX. The main changes are the following:
+This repository contains a version of the code required to introduce a CO2 tax in the standard functions of GenX.
+
+The changes have been marked with a "NEW_CO2_TAX" comment before them, to make it easier to find them in the code.
+
+The main changes are the following:
 
 In the settings file for the scenario, it is now allowed to have CO2cap==4. When this is the case, the code will read the desired CO2 tax (as described below) and apply it consistently for every generator and every time step in the simulation.
 
